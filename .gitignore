@@ -1,0 +1,25 @@
+# Data (too large for GitHub)
+data/raw/
+data/processed/
+
+# Python environment and junk
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model artifacts (pkl, h5, etc.)
+*.pkl
+*.h5
+*.joblib
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Experiment tracking local storage
+mlruns/
